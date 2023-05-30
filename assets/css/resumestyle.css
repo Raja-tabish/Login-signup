@@ -1,5 +1,5 @@
 body{
-    background-color: lightblue;
+    background:linear-gradient(to right, #909fe0 0%, #b395ce 100%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,7 +26,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     border-bottom: 1px solid rgb(141, 161, 23);
 
 }
@@ -54,6 +54,19 @@ body{
     text-align: center;
     font-weight: 600;
     line-height: 1.4em;
+}
+.cont h2{
+    padding-top: 70px;
+    color: white;
+    font-size: 1.5em;
+    margin-top: 20px;
+    font-weight: 100;
+    line-height: 1.4em;
+    border-bottom: 1px solid white;
+    
+}
+.cont{
+    color: white;
 }
 .rightside{
     position: relative;
